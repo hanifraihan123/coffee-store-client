@@ -45,7 +45,7 @@ const Coffee = ({ coffee, loadedCoffees, setLoadedCoffees }) => {
     return (
         <div className="card lg:card-side bg-base-100 shadow-xl">
             <figure>
-                <img
+                <img className='h-32'
                     src={photo}
                     alt="coffee" />
             </figure>
